@@ -15,12 +15,10 @@ const Contact: React.FC = () => {
       !formData.subject ||
       !formData.message
     ) {
-      alert("All fields are required!");
       return;
     }
 
     saveFormData();
-    alert("Your message has been submitted successfully!");
   };
 
   return (
