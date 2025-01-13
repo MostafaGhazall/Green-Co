@@ -1,0 +1,444 @@
+[
+    {
+      "id": "1",
+      "name": "Orange",
+      "category": "Fruits",
+      "image": "/fruits/Orange.jpg",
+      "description": "There are both Native American and Oriental Kaki Fruit...",
+      "quality": "Minimum maturity is based on skin color change...",
+      "conditions": {
+        "temperature": "3 to 8 degree Celsius",
+        "humidity": "90% to 95%",
+        "storage": "35 to 84 days"
+      },
+      "nutrition": {
+        "Serving Size": "25g",
+        "Calories": "32",
+        "Vitamin C": "27%",
+        "Calcium": "1%",
+        "Iron": "3%"
+      },
+      "months": ["January", "February", "March"]
+    },
+    {
+      "id": "2",
+      "name": "Grapes",
+      "category": "Fruits",
+      "image": "/fruits/Grapes.jpg",
+      "description": "Rich in flavor and nutrients, Black Dates are...",
+      "quality": "High-quality dates with optimal freshness...",
+      "conditions": {
+        "temperature": "5 to 8 degrees Celsius",
+        "humidity": "50% to 70%",
+        "storage": "60 to 90 days"
+      },
+      "nutrition": {
+        "Serving Size": "30g",
+        "Calories": "75",
+        "Vitamin C": "5%",
+        "Calcium": "2%",
+        "Iron": "8%"
+      },
+      "months": ["May", "June", "July", "August"]
+    },
+    {
+      "id": "3",
+      "name": "Peaches",
+      "category": "Fruits",
+      "image": "/fruits/Peaches.jpg",
+      "description": "Rich in flavor and nutrients, Black Dates are...",
+      "quality": "High-quality dates with optimal freshness...",
+      "conditions": {
+        "temperature": "5 to 8 degrees Celsius",
+        "humidity": "50% to 70%",
+        "storage": "60 to 90 days"
+      },
+      "nutrition": {
+        "Serving Size": "30g",
+        "Calories": "75",
+        "Vitamin C": "5%",
+        "Calcium": "2%",
+        "Iron": "8%"
+      },
+      "months": ["June", "July", "August"]
+    },
+    {
+      "id": "4",
+      "name": "Strawberry",
+      "category": "Fruits",
+      "image": "/fruits/Strawberry.jpg",
+      "description": "Rich in flavor and nutrients, Black Dates are...",
+      "quality": "High-quality dates with optimal freshness...",
+      "conditions": {
+        "temperature": "5 to 8 degrees Celsius",
+        "humidity": "50% to 70%",
+        "storage": "60 to 90 days"
+      },
+      "nutrition": {
+        "Serving Size": "30g",
+        "Calories": "75",
+        "Vitamin C": "5%",
+        "Calcium": "2%",
+        "Iron": "8%"
+      },
+      "months": ["January", "February", "March", "November", "December"]
+    },
+    {
+      "id": "5",
+      "name": "Pomegranate",
+      "category": "Fruits",
+      "image": "/fruits/Pomegranate.jpg",
+      "description": "Rich in flavor and nutrients, Black Dates are...",
+      "quality": "High-quality dates with optimal freshness...",
+      "conditions": {
+        "temperature": "5 to 8 degrees Celsius",
+        "humidity": "50% to 70%",
+        "storage": "60 to 90 days"
+      },
+      "nutrition": {
+        "Serving Size": "30g",
+        "Calories": "75",
+        "Vitamin C": "5%",
+        "Calcium": "2%",
+        "Iron": "8%"
+      },
+      "months": ["September", "October", "November"]
+    },
+    {
+      "id": "6",
+      "name": "Melon",
+      "category": "Fruits",
+      "image": "/fruits/Melon.jpg",
+      "description": "Rich in flavor and nutrients, Black Dates are...",
+      "quality": "High-quality dates with optimal freshness...",
+      "conditions": {
+        "temperature": "5 to 8 degrees Celsius",
+        "humidity": "50% to 70%",
+        "storage": "60 to 90 days"
+      },
+      "nutrition": {
+        "Serving Size": "30g",
+        "Calories": "75",
+        "Vitamin C": "5%",
+        "Calcium": "2%",
+        "Iron": "8%"
+      },
+      "months": ["September", "May", "June", "July", "August"]
+    },
+    {
+      "id": "7",
+      "name": "Lime",
+      "category": "Fruits",
+      "image": "/fruits/Lime.jpg",
+      "description": "Rich in flavor and nutrients, Black Dates are...",
+      "quality": "High-quality dates with optimal freshness...",
+      "conditions": {
+        "temperature": "5 to 8 degrees Celsius",
+        "humidity": "50% to 70%",
+        "storage": "60 to 90 days"
+      },
+      "nutrition": {
+        "Serving Size": "30g",
+        "Calories": "75",
+        "Vitamin C": "5%",
+        "Calcium": "2%",
+        "Iron": "8%"
+      },
+      "months": ["January", "February", "March", "April", "October", "November", "December"]
+    },
+    {
+      "id": "8",
+      "name": "Mangoes",
+      "category": "Fruits",
+      "image": "/fruits/Mango.jpg",
+      "description": "Rich in flavor and nutrients, Black Dates are...",
+      "quality": "High-quality dates with optimal freshness...",
+      "conditions": {
+        "temperature": "5 to 8 degrees Celsius",
+        "humidity": "50% to 70%",
+        "storage": "60 to 90 days"
+      },
+      "nutrition": {
+        "Serving Size": "30g",
+        "Calories": "75",
+        "Vitamin C": "5%",
+        "Calcium": "2%",
+        "Iron": "8%"
+      },
+      "months": ["June", "July", "August", "September", "October"]
+    },
+    {
+      "id": "9",
+      "name": "Okra",
+      "category": "Vegetables",
+      "image": "/vegetables/Okra.jpg",
+      "description": "Rich in flavor and nutrients, Black Dates are...",
+      "quality": "High-quality dates with optimal freshness...",
+      "conditions": {
+        "temperature": "5 to 8 degrees Celsius",
+        "humidity": "50% to 70%",
+        "storage": "60 to 90 days"
+      },
+      "nutrition": {
+        "Serving Size": "30g",
+        "Calories": "75",
+        "Vitamin C": "5%",
+        "Calcium": "2%",
+        "Iron": "8%"
+      },
+      "months": ["March", "April", "May", "June", "July", "August", "September", "October", "November"]
+    },
+    {
+      "id": "10",
+      "name": "Peas",
+      "category": "Vegetables",
+      "image": "/vegetables/Peas.jpg",
+      "description": "Rich in flavor and nutrients, Black Dates are...",
+      "quality": "High-quality dates with optimal freshness...",
+      "conditions": {
+        "temperature": "5 to 8 degrees Celsius",
+        "humidity": "50% to 70%",
+        "storage": "60 to 90 days"
+      },
+      "nutrition": {
+        "Serving Size": "30g",
+        "Calories": "75",
+        "Vitamin C": "5%",
+        "Calcium": "2%",
+        "Iron": "8%"
+      },
+      "months": ["October", "March", "November", "April", "May"]
+    },
+    {
+      "id": "21",
+      "name": "Beans",
+      "category": "Vegetables",
+      "image": "/vegetables/Beans.jpg",
+      "description": "Rich in flavor and nutrients, Black Dates are...",
+      "quality": "High-quality dates with optimal freshness...",
+      "conditions": {
+        "temperature": "5 to 8 degrees Celsius",
+        "humidity": "50% to 70%",
+        "storage": "60 to 90 days"
+      },
+      "nutrition": {
+        "Serving Size": "30g",
+        "Calories": "75",
+        "Vitamin C": "5%",
+        "Calcium": "2%",
+        "Iron": "8%"
+      },
+      "months": ["January", "February", "March", "April", "November", "December", "October"]
+    },
+    {
+      "id": "11",
+      "name": "Cooking Onion (Salad)",
+      "category": "Vegetables",
+      "image": "/vegetables/CookingOnion.jpg",
+      "description": "Rich in flavor and nutrients, Black Dates are...",
+      "quality": "High-quality dates with optimal freshness...",
+      "conditions": {
+        "temperature": "5 to 8 degrees Celsius",
+        "humidity": "50% to 70%",
+        "storage": "60 to 90 days"
+      },
+      "nutrition": {
+        "Serving Size": "30g",
+        "Calories": "75",
+        "Vitamin C": "5%",
+        "Calcium": "2%",
+        "Iron": "8%"
+      },
+      "months": ["September", "October", "November", "December"]
+    },
+    {
+      "id": "12",
+      "name": "Green Onion (Salad)",
+      "category": "Vegetables",
+      "image": "/vegetables/GreenOnion.jpg",
+      "description": "Rich in flavor and nutrients, Black Dates are...",
+      "quality": "High-quality dates with optimal freshness...",
+      "conditions": {
+        "temperature": "5 to 8 degrees Celsius",
+        "humidity": "50% to 70%",
+        "storage": "60 to 90 days"
+      },
+      "nutrition": {
+        "Serving Size": "30g",
+        "Calories": "75",
+        "Vitamin C": "5%",
+        "Calcium": "2%",
+        "Iron": "8%"
+      },
+      "months": ["September", "October", "November", "December"]
+    },
+    {
+      "id": "13",
+      "name": "Chilli (Salad)",
+      "category": "Vegetables",
+      "image": "/vegetables/Chilli.jpg",
+      "description": "Rich in flavor and nutrients, Black Dates are...",
+      "quality": "High-quality dates with optimal freshness...",
+      "conditions": {
+        "temperature": "5 to 8 degrees Celsius",
+        "humidity": "50% to 70%",
+        "storage": "60 to 90 days"
+      },
+      "nutrition": {
+        "Serving Size": "30g",
+        "Calories": "75",
+        "Vitamin C": "5%",
+        "Calcium": "2%",
+        "Iron": "8%"
+      },
+      "months": ["January", "February", "March", "April", "October", "November", "December"]
+    },
+    {
+      "id": "14",
+      "name": "BellPeppers (Salad)",
+      "category": "Vegetables",
+      "image": "/vegetables/BellPeppers.jpg",
+      "description": "Rich in flavor and nutrients, Black Dates are...",
+      "quality": "High-quality dates with optimal freshness...",
+      "conditions": {
+        "temperature": "5 to 8 degrees Celsius",
+        "humidity": "50% to 70%",
+        "storage": "60 to 90 days"
+      },
+      "nutrition": {
+        "Serving Size": "30g",
+        "Calories": "75",
+        "Vitamin C": "5%",
+        "Calcium": "2%",
+        "Iron": "8%"
+      },
+      "months": ["January", "February", "March", "April", "August", "September"]
+    },
+    {
+      "id": "15",
+      "name": "Artichokes (Salad)",
+      "category": "Vegetables",
+      "image": "/vegetables/Artichokes.jpg",
+      "description": "Rich in flavor and nutrients, Black Dates are...",
+      "quality": "High-quality dates with optimal freshness...",
+      "conditions": {
+        "temperature": "5 to 8 degrees Celsius",
+        "humidity": "50% to 70%",
+        "storage": "60 to 90 days"
+      },
+      "nutrition": {
+        "Serving Size": "30g",
+        "Calories": "75",
+        "Vitamin C": "5%",
+        "Calcium": "2%",
+        "Iron": "8%"
+      },
+      "months": ["January", "February", "December"]
+    },
+    {
+      "id": "16",
+      "name": "Guava (Exotics)",
+      "category": "Fruits",
+      "image": "/fruits/Guava.jpg",
+      "description": "Rich in flavor and nutrients, Black Dates are...",
+      "quality": "High-quality dates with optimal freshness...",
+      "conditions": {
+        "temperature": "5 to 8 degrees Celsius",
+        "humidity": "50% to 70%",
+        "storage": "60 to 90 days"
+      },
+      "nutrition": {
+        "Serving Size": "30g",
+        "Calories": "75",
+        "Vitamin C": "5%",
+        "Calcium": "2%",
+        "Iron": "8%"
+      },
+      "months": ["September", "October", "November", "December", "August", "January", "February", "March", "April", "May"]
+    },
+    {
+      "id": "17",
+      "name": "Custard Apple (Exotics)",
+      "category": "Fruits",
+      "image": "/fruits/CustardApple.jpg",
+      "description": "Rich in flavor and nutrients, Black Dates are...",
+      "quality": "High-quality dates with optimal freshness...",
+      "conditions": {
+        "temperature": "5 to 8 degrees Celsius",
+        "humidity": "50% to 70%",
+        "storage": "60 to 90 days"
+      },
+      "nutrition": {
+        "Serving Size": "30g",
+        "Calories": "75",
+        "Vitamin C": "5%",
+        "Calcium": "2%",
+        "Iron": "8%"
+      },
+      "months": ["September", "October", "November", "December"]
+    },
+    {
+      "id": "18",
+      "name": "Pears (Exotics)",
+      "category": "Fruits",
+      "image": "/fruits/Pears.jpg",
+      "description": "Rich in flavor and nutrients, Black Dates are...",
+      "quality": "High-quality dates with optimal freshness...",
+      "conditions": {
+        "temperature": "5 to 8 degrees Celsius",
+        "humidity": "50% to 70%",
+        "storage": "60 to 90 days"
+      },
+      "nutrition": {
+        "Serving Size": "30g",
+        "Calories": "75",
+        "Vitamin C": "5%",
+        "Calcium": "2%",
+        "Iron": "8%"
+      },
+      "months": ["September", "October", "November", "December"]
+    },
+    {
+      "id": "19",
+      "name": "Mint (Herbs)",
+      "category": "Vegetables",
+      "image": "/vegetables/Mint.jpg",
+      "description": "Rich in flavor and nutrients, Black Dates are...",
+      "quality": "High-quality dates with optimal freshness...",
+      "conditions": {
+        "temperature": "5 to 8 degrees Celsius",
+        "humidity": "50% to 70%",
+        "storage": "60 to 90 days"
+      },
+      "nutrition": {
+        "Serving Size": "30g",
+        "Calories": "75",
+        "Vitamin C": "5%",
+        "Calcium": "2%",
+        "Iron": "8%"
+      },
+      "months": ["September", "October", "November", "December"]
+    },
+    {
+      "id": "20",
+      "name": "Coriander (Herbs)",
+      "category": "Vegetables",
+      "image": "/vegetables/Coriander.jpg",
+      "description": "Rich in flavor and nutrients, Black Dates are...",
+      "quality": "High-quality dates with optimal freshness...",
+      "conditions": {
+        "temperature": "5 to 8 degrees Celsius",
+        "humidity": "50% to 70%",
+        "storage": "60 to 90 days"
+      },
+      "nutrition": {
+        "Serving Size": "30g",
+        "Calories": "75",
+        "Vitamin C": "5%",
+        "Calcium": "2%",
+        "Iron": "8%"
+      },
+      "months": ["September", "October", "November", "December"]
+    }
+  ]
+  
