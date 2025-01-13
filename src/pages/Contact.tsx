@@ -8,7 +8,6 @@ const Contact: React.FC = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
-    // Validate form fields
     if (
       !formData.name ||
       !formData.email ||
@@ -20,23 +19,22 @@ const Contact: React.FC = () => {
       return;
     }
 
-    // Save form data using the store
     saveFormData();
     alert("Your message has been submitted successfully!");
   };
 
   return (
-    <div className="bg-gray-50 py-16 px-6 lg:px-20">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start ml-40">
+    <div className="bg-gray-50 py-16 px-6 md:px-12 lg:px-20">
+      <div className="grid grid-cols-1 xl:grid-cols-2 gap-12 items-start">
         {/* Left Column */}
         <div className="space-y-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Address Section */}
             <div className="flex items-start space-x-4">
               <FaMapMarkerAlt className="text-[#FF8800] text-2xl mt-1" />
               <div>
                 <h3 className="text-lg font-semibold text-[#6d4211]">Address</h3>
-                <p className="text-gray-700">
+                <p className="text-gray-700 text-sm">
                   Kilo 20 Bilbes Road - Alobbor
                   <br />
                   Egyptian Engineers Association, Gate No. 3 - Egypt
@@ -51,10 +49,10 @@ const Contact: React.FC = () => {
                 <h3 className="text-lg font-semibold text-[#6d4211]">
                   Contacts
                 </h3>
-                <p className="text-gray-700">+2 (02)26328464</p>
+                <p className="text-gray-700 text-sm">+2 (02)26328464</p>
                 <a
                   href="mailto:info@egy-pro.com"
-                  className="text-gray-700 hover:text-[#FF8800] transition duration-200"
+                  className="text-gray-700 hover:text-[#FF8800] text-sm transition duration-200"
                 >
                   info@egy-pro.com
                 </a>
@@ -68,7 +66,7 @@ const Contact: React.FC = () => {
               title="Google Map"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3445.1314169224315!2d31.4681146!3d30.2903202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145805028a2d22d1%3A0x5f0fa79de443fa7f!2sEGYPRO!5e0!3m2!1sen!2seg!4v1736630113382!5m2!1sen!2seg"
               width="100%"
-              height="550"
+              height="400"
               style={{ border: 0 }}
               allowFullScreen={true}
               loading="lazy"
@@ -77,7 +75,7 @@ const Contact: React.FC = () => {
         </div>
 
         {/* Right Column: Contact Form */}
-        <div className="bg-white p-8 rounded-lg shadow-lg w-full lg:w-4/5 xl:w-3/4">
+        <div className="bg-white p-6 md:p-8 rounded-lg shadow-lg w-full">
           <h3 className="text-lg font-semibold text-[#FF8800] mb-4">
             Send a Message
           </h3>
