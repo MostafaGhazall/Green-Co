@@ -136,29 +136,87 @@ const Home: React.FC = () => {
       {/* About Us Section */}
       <section
         id="about-us"
-        className="py-28 px-36 bg-white flex flex-col lg:flex-row items-center justify-between"
+        className="py-12 px-6 md:py-16 md:px-10 lg:py-28 lg:px-36 bg-white flex flex-col lg:flex-row items-center justify-between"
       >
         {/* Text Section */}
-        <div className="lg:w-1/2 px-12">
-          <h2 className="text-5xl text-[#FF8800] font-bold mb-6 leading-tight">
+        <div className="w-full lg:w-1/2 px-4 md:px-8">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl text-[#FF8800] font-bold mb-4 md:mb-6">
             About Us
           </h2>
-          <p className="text-lg text-gray-700 mb-8 leading-relaxed max-w-xl">
-            Al Salloum for Agricultural Development & Investment (EGYPRO) is a
+          <p className="text-sm md:text-base lg:text-lg text-gray-700 mb-6 leading-relaxed max-w-xl">
+            Green for Agricultural Development & Investment is a
             fast-growing, modern company producing, sourcing, packing, and
             exporting high-quality fruits and vegetables of Egyptian origin.
           </p>
           <Link
             to="/about"
-            className="px-8 py-3 bg-[#E94D23] text-white font-semibold rounded hover:bg-[#004F26] transition duration-200"
+            className="px-6 py-2 md:px-8 md:py-3 bg-[#E94D23] text-white font-semibold rounded hover:bg-[#004F26] transition duration-200"
           >
             Learn More
           </Link>
         </div>
 
         {/* Image Section */}
-        <div className="lg:w-1/2 px-12 mt-8 lg:mt-0 flex justify-center">
-          <img src="/home/who.jpeg" alt="Who We Are Placeholder" className="w-3/4" />
+        <div className="w-full lg:w-1/2 mt-8 lg:mt-0 flex justify-center px-4 md:px-8">
+          <img
+            src="/home/who.jpeg"
+            alt="Who We Are"
+            className="w-3/4 sm:w-2/3 lg:w-3/4"
+          />
+        </div>
+      </section>
+      {/* Fruits & Vegetables Section */}
+      <section
+        id="products-section"
+        className="py-12 px-6 md:py-16 md:px-10 lg:py-20 lg:px-36 bg-gray-100"
+      >
+        <div className="text-center mb-12">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl text-[#FF8800] font-bold mb-7">
+            Green Products
+          </h2>
+          <p className="text-gray-700 text-sm md:text-base lg:text-lg leading-relaxed max-w-4xl mx-auto">
+            Our products are a testament to our dedication to delivering
+            excellence in agricultural produce. From farm to table, we offer a
+            diverse range of fruits, vegetables, herbs, and specialty items that
+            embody freshness, quality, and sustainability. Each product is a
+            result of meticulous cultivation, ethical farming practices, and
+            advanced handling techniques to ensure the highest standards.
+            Explore our offerings and experience the perfect blend of nature’s
+            bounty and our unwavering commitment to providing premium
+            agricultural solutions tailored to your needs.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center justify-center">
+          <Link to="/categories/fruits" className="group">
+            <div className="relative w-full h-[300px] overflow-hidden rounded-lg shadow-lg">
+              <img
+                src="/home/fruits2.jpg"
+                alt="Fruits"
+                className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-black bg-opacity-45 flex items-center justify-center">
+                <h3 className="text-white text-xl md:text-2xl lg:text-3xl font-semibold">
+                  Fruits
+                </h3>
+              </div>
+            </div>
+          </Link>
+
+          <Link to="/categories/vegetables" className="group">
+            <div className="relative w-full h-[300px] overflow-hidden rounded-lg shadow-lg">
+              <img
+                src="/home/vegetables.jpg"
+                alt="Vegetables"
+                className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
+                <h3 className="text-white text-xl md:text-2xl lg:text-3xl font-semibold">
+                  Vegetables
+                </h3>
+              </div>
+            </div>
+          </Link>
         </div>
       </section>
     </div>

@@ -50,24 +50,24 @@ const Footer: React.FC = () => {
             <p className="text-sm">
               <strong>Phone:</strong>
               <br />
-              +2 (02)26328464,<br /> +2 (02)26345832<br />
-              +2 (0)1006718384,<br /> U.K: 00447949084684
+              +2 (02)12345678,<br /> +2 (02)12345678<br />
+              +2 (0)1023456789,<br /> U.K: 00123456789123
             </p>
             <p className="text-sm">
               <strong>Email:</strong>
               <br />
               <a
-                href="mailto:info@egy-pro.com"
+                href=""
                 className="hover:text-[#6ABB47] hover:underline transition duration-200"
               >
-                info@egy-pro.com
+                info@green.com
               </a>
               <br />
               <a
-                href="mailto:Yasser.salloum@egy-pro.com"
+                href=""
                 className="hover:text-[#6ABB47] hover:underline transition duration-200"
               >
-                Yasser.salloum@egy-pro.com
+                mostafa.ghazal@green.com
               </a>
             </p>
           </div>

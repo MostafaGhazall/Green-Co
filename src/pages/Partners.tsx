@@ -46,7 +46,7 @@ const Partners: React.FC = () => {
         <div className="text-gray-800">
           {/* Text Content */}
           <p className="text-lg leading-relaxed mb-8">
-            Al salloum core philosophy is to keep customer happy at all times.
+            Green core philosophy is to keep customer happy at all times.
             Basically by fulfilling customer’s needs and meeting expectations.
             In case of any deviations that may affect the customers satisfactory, a fast corrective action will be taken place.
           </p>
@@ -60,7 +60,7 @@ const Partners: React.FC = () => {
               </div>
               <div>
                 <span className="block text-sm font-medium group-hover:text-[#FF8800]">
-                  +2 (02)26328464 - .U.K :00447949084684
+                  +2 (02)12345678 - .U.K :00123456789123
                 </span>
                 <span className="block text-xs text-gray-500">Get in touch with us</span>
               </div>
@@ -73,10 +73,10 @@ const Partners: React.FC = () => {
               </div>
               <div>
                 <a
-                  href="mailto:info@egy-pro.com"
+                  href=""
                   className="block text-sm font-medium hover:underline group-hover:text-[#FF8800]"
                 >
-                  info@egy-pro.com
+                  info@green.com
                 </a>
                 <span className="block text-xs text-gray-500">Send us an email</span>
               </div>

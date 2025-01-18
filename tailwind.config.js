@@ -4,8 +4,9 @@ module.exports = {
     extend: {
       keyframes: {
         rotate360: {
-          '0%': { transform: 'rotate(0deg)' },
-          '100%': { transform: 'rotate(360deg)' },
+          '0%': { transform: 'rotate(0deg) scale(1)' },
+          '50%': { transform: 'rotate(180deg) scale(1.1)' },
+          '100%': { transform: 'rotate(360deg) scale(1)' },
         },
         slideIn: {
           '0%': { transform: 'translateX(100%)', opacity: '0' },

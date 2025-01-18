@@ -51,7 +51,7 @@ const Portfolio: React.FC = () => {
           <div className="lg:w-1/2 text-gray-800 mb-8 lg:mb-0">
             <h2 className="text-4xl font-bold text-[#FF8800] mb-8">Logistics</h2>
             <p className="text-lg leading-relaxed">
-              In fresh produce industry, logistics has been always playing an important role. We at Egy-Pro pays attention to logistics as an important key for effective supply chain. Whether transporting crops from farms or to export ports, only our temperature controlled vehicle are used to ensure constant quality for the produce.
+              In fresh produce industry, logistics has been always playing an important role. We at Green pays attention to logistics as an important key for effective supply chain. Whether transporting crops from farms or to export ports, only our temperature controlled vehicle are used to ensure constant quality for the produce.
             </p>
           </div>
           <div className="lg:w-1/2 flex justify-center">

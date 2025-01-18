@@ -24,8 +24,12 @@ const Navbar: React.FC = () => {
       {/* Upper Navbar */}
       <nav className="bg-white text-[#FF8800] px-4 md:px-20 py-4 flex justify-between items-center">
         {/* Logo Section */}
-        <div className="flex flex-col items-start group transition-transform duration-500 hover:animate-rotate360">
-          <img src="/logo2.png" alt="Company Logo" className="h-10 md:h-12 w-auto" />
+        <div className="flex flex-col items-start group hover:animate-rotate360">
+          <img
+            src="/logo.png"
+            alt="Company Logo"
+            className="h-10 md:h-12 w-auto"
+          />
           <span className="text-[#004F26] font-semibold text-xs ml-2">
             fine egyptian produce
           </span>
@@ -40,9 +44,11 @@ const Navbar: React.FC = () => {
             </div>
             <div>
               <span className="block text-sm font-medium group-hover:text-[#FF6D00]">
-                +2 (02)26328464 - .U.K :00447949084684
+                +2 (02)12345678 - .U.K :00123456789123
               </span>
-              <span className="block text-xs text-gray-500">Get in touch with us</span>
+              <span className="block text-xs text-gray-500">
+                Get in touch with us
+              </span>
             </div>
           </div>
 
@@ -53,12 +59,14 @@ const Navbar: React.FC = () => {
             </div>
             <div>
               <a
-                href="mailto:info@egy-pro.com"
+                href=""
                 className="block text-sm font-medium hover:underline group-hover:text-[#FF6D00]"
               >
-                info@egy-pro.com
+                info@green.com
               </a>
-              <span className="block text-xs text-gray-500">Send us an email</span>
+              <span className="block text-xs text-gray-500">
+                Send us an email
+              </span>
             </div>
           </div>
         </div>

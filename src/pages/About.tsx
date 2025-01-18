@@ -20,7 +20,7 @@ const About: React.FC = () => {
             <span className="text-[#FF8800] font-bold">Who</span> We Are
           </h2>
           <p className="text-lg leading-relaxed">
-            Al Salloum for Agricultural Development & Investment (EGYPRO)
+            Green for Agricultural Development & Investment
             is a fast-growing, modern company producing, sourcing, packing, and
             exporting high-quality fruits and vegetables of Egyptian origin.
             <br /> <br />

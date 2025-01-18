@@ -47,12 +47,12 @@ const Contact: React.FC = () => {
                 <h3 className="text-lg font-semibold text-[#6d4211]">
                   Contacts
                 </h3>
-                <p className="text-gray-700 text-sm">+2 (02)26328464</p>
+                <p className="text-gray-700 text-sm">+2 (02)12345678</p>
                 <a
-                  href="mailto:info@egy-pro.com"
+                  href=""
                   className="text-gray-700 hover:text-[#FF8800] text-sm transition duration-200"
                 >
-                  info@egy-pro.com
+                  info@green.com
                 </a>
               </div>
             </div>
@@ -62,7 +62,7 @@ const Contact: React.FC = () => {
           <div className="rounded-lg overflow-hidden shadow-lg">
             <iframe
               title="Google Map"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3445.1314169224315!2d31.4681146!3d30.2903202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145805028a2d22d1%3A0x5f0fa79de443fa7f!2sEGYPRO!5e0!3m2!1sen!2seg!4v1736630113382!5m2!1sen!2seg"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3445.530963712565!2d31.47129057540023!3d30.2789425748063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145805bf2a120441%3A0x2905b1c76f2cc90e!2s20%20Cairo%20-%20Belbeis%20Desert%20Rd%2C%20Bilbeis%2C%20Al-Sharqia%20Governorate!5e0!3m2!1sen!2seg!4v1737226624811!5m2!1sen!2seg"
               width="100%"
               height="400"
               style={{ border: 0 }}
